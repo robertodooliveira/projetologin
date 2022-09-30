@@ -12,13 +12,38 @@
 <body>
     <main>
         <section id="login">
+            
             <div id="imagem">
                
             </div>
             <div id="formulario">
-                <h1>Login</h1>
+                <h1>Login</h1><br>
                 <p>Seja Bem-Vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+              <br>
                 <form action="login,php" method="post">
+                    
+                        
+                            <p> <label for="iusuario"></label>
+                                <input type="text" name="usuario" id="iusuario" required minlength="4" maxlength="30" size="40" placeholder="Usuário " autocomplete="username">
+                            </p>
+                        
+                            <p> <label for="senha"></label>
+                                <input type="password" name="senha" autocomplete="on" id="isenha" required minlength="6" maxlength="15" size="40" placeholder="Senha " autocomplete="current-password" >
+                            </p>
+                        
+                            
+                                <p>
+                                <input type="submit" value="Entrar" id="entrar" >
+                                </p>
+                            
+                            
+                            
+                                <p>
+                                <input type="reset" value="Esqueci a Senha" id="esqueci">
+                                </p>
+                           
+                        
+                   
 
 
                 </form>
